@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WDViewControllerProtocol.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<WDViewControllerProtocol>
 
 
 @end

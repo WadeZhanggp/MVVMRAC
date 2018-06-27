@@ -15,6 +15,12 @@
 		39071A8B20E20E8F00B3BEB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39071A8A20E20E8F00B3BEB9 /* main.m */; };
 		39071A9520E20E8F00B3BEB9 /* MVVMRACTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39071A9420E20E8F00B3BEB9 /* MVVMRACTests.m */; };
 		39071AA020E20E9000B3BEB9 /* MVVMRACUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39071A9F20E20E9000B3BEB9 /* MVVMRACUITests.m */; };
+		39C0863920E375AF00D80A04 /* UIViewController+NonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0863820E375AF00D80A04 /* UIViewController+NonBase.m */; };
+		39C0863C20E3760900D80A04 /* WDViewControllerIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0863B20E3760900D80A04 /* WDViewControllerIntercepter.m */; };
+		39C0864420E3802C00D80A04 /* WDViewModelIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0864320E3802C00D80A04 /* WDViewModelIntercepter.m */; };
+		39C0864720E3809100D80A04 /* NSObject+NonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0864620E3809100D80A04 /* NSObject+NonBase.m */; };
+		39C0864D20E384A300D80A04 /* UIView+NonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0864C20E384A300D80A04 /* UIView+NonBase.m */; };
+		39C0865020E3858600D80A04 /* WDViewIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0864F20E3858600D80A04 /* WDViewIntercepter.m */; };
 		F0516B6036B3CD75FEA43FEC /* libPods-MVVMRAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDB54DED66C401944329EE8 /* libPods-MVVMRAC.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +59,23 @@
 		39071A9B20E20E9000B3BEB9 /* MVVMRACUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMRACUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39071A9F20E20E9000B3BEB9 /* MVVMRACUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMRACUITests.m; sourceTree = "<group>"; };
 		39071AA120E20E9000B3BEB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C0863720E375AF00D80A04 /* UIViewController+NonBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NonBase.h"; sourceTree = "<group>"; };
+		39C0863820E375AF00D80A04 /* UIViewController+NonBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NonBase.m"; sourceTree = "<group>"; };
+		39C0863A20E3760900D80A04 /* WDViewControllerIntercepter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDViewControllerIntercepter.h; sourceTree = "<group>"; };
+		39C0863B20E3760900D80A04 /* WDViewControllerIntercepter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDViewControllerIntercepter.m; sourceTree = "<group>"; };
+		39C0863D20E3797100D80A04 /* WDViewControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDViewControllerProtocol.h; sourceTree = "<group>"; };
+		39C0864120E37F6100D80A04 /* WDViewModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDViewModelProtocol.h; sourceTree = "<group>"; };
+		39C0864220E3802C00D80A04 /* WDViewModelIntercepter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDViewModelIntercepter.h; sourceTree = "<group>"; };
+		39C0864320E3802C00D80A04 /* WDViewModelIntercepter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDViewModelIntercepter.m; sourceTree = "<group>"; };
+		39C0864520E3809100D80A04 /* NSObject+NonBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+NonBase.h"; sourceTree = "<group>"; };
+		39C0864620E3809100D80A04 /* NSObject+NonBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NonBase.m"; sourceTree = "<group>"; };
+		39C0864820E3828E00D80A04 /* WDViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDViewProtocol.h; sourceTree = "<group>"; };
+		39C0864920E3836600D80A04 /* WDTableViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDTableViewProtocol.h; sourceTree = "<group>"; };
+		39C0864A20E3844B00D80A04 /* WDTableViewCellProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDTableViewCellProtocol.h; sourceTree = "<group>"; };
+		39C0864B20E384A300D80A04 /* UIView+NonBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+NonBase.h"; sourceTree = "<group>"; };
+		39C0864C20E384A300D80A04 /* UIView+NonBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+NonBase.m"; sourceTree = "<group>"; };
+		39C0864E20E3858600D80A04 /* WDViewIntercepter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDViewIntercepter.h; sourceTree = "<group>"; };
+		39C0864F20E3858600D80A04 /* WDViewIntercepter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDViewIntercepter.m; sourceTree = "<group>"; };
 		98FB3272D5415537755A097F /* Pods-MVVMRAC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMRAC.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMRAC/Pods-MVVMRAC.release.xcconfig"; sourceTree = "<group>"; };
 		EBDB54DED66C401944329EE8 /* libPods-MVVMRAC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVVMRAC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -193,6 +216,11 @@
 		39C0862E20E3732800D80A04 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				39C0863D20E3797100D80A04 /* WDViewControllerProtocol.h */,
+				39C0863720E375AF00D80A04 /* UIViewController+NonBase.h */,
+				39C0863820E375AF00D80A04 /* UIViewController+NonBase.m */,
+				39C0863A20E3760900D80A04 /* WDViewControllerIntercepter.h */,
+				39C0863B20E3760900D80A04 /* WDViewControllerIntercepter.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -200,6 +228,11 @@
 		39C0862F20E3732800D80A04 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				39C0864120E37F6100D80A04 /* WDViewModelProtocol.h */,
+				39C0864220E3802C00D80A04 /* WDViewModelIntercepter.h */,
+				39C0864320E3802C00D80A04 /* WDViewModelIntercepter.m */,
+				39C0864520E3809100D80A04 /* NSObject+NonBase.h */,
+				39C0864620E3809100D80A04 /* NSObject+NonBase.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -207,6 +240,13 @@
 		39C0863020E3732800D80A04 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				39C0864820E3828E00D80A04 /* WDViewProtocol.h */,
+				39C0864920E3836600D80A04 /* WDTableViewProtocol.h */,
+				39C0864A20E3844B00D80A04 /* WDTableViewCellProtocol.h */,
+				39C0864B20E384A300D80A04 /* UIView+NonBase.h */,
+				39C0864C20E384A300D80A04 /* UIView+NonBase.m */,
+				39C0864E20E3858600D80A04 /* WDViewIntercepter.h */,
+				39C0864F20E3858600D80A04 /* WDViewIntercepter.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -404,9 +444,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39C0863C20E3760900D80A04 /* WDViewControllerIntercepter.m in Sources */,
+				39C0864720E3809100D80A04 /* NSObject+NonBase.m in Sources */,
+				39C0864420E3802C00D80A04 /* WDViewModelIntercepter.m in Sources */,
 				39071A8020E20E8F00B3BEB9 /* ViewController.m in Sources */,
 				39071A8B20E20E8F00B3BEB9 /* main.m in Sources */,
+				39C0864D20E384A300D80A04 /* UIView+NonBase.m in Sources */,
+				39C0865020E3858600D80A04 /* WDViewIntercepter.m in Sources */,
 				39071A7D20E20E8F00B3BEB9 /* AppDelegate.m in Sources */,
+				39C0863920E375AF00D80A04 /* UIViewController+NonBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

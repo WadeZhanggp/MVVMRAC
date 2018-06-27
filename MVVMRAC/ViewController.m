@@ -26,4 +26,22 @@
 }
 
 
+- (void)wd_bindViewModelForController {
+    
+}
+
+- (void)wd_configNavigationForController {
+    
+}
+
+- (void)wd_createViewForConctroller {
+    
+}
+
+- (void)wd_initialDefaultsForController {
+    
+}
+
+
+
 @end
