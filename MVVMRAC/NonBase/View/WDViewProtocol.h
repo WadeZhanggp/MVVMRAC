@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @protocol WDViewProtocol <NSObject>
-
+@optional
 /**
  为视图绑定 viewModel
  
@@ -18,13 +18,13 @@
  */
 - (void)bindViewModel:(id <WDViewProtocol>)viewModel withParams:(NSDictionary *)params;
 
-@required
 
+@optional
 /**
  初始化额外数据
  */
 - (void)wd_initializeForView;
-
+@required
 /**
  初始化视图
  */

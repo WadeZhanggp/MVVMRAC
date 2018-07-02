@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		39071A7D20E20E8F00B3BEB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39071A7C20E20E8F00B3BEB9 /* AppDelegate.m */; };
-		39071A8020E20E8F00B3BEB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39071A7F20E20E8F00B3BEB9 /* ViewController.m */; };
 		39071A8320E20E8F00B3BEB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39071A8120E20E8F00B3BEB9 /* Main.storyboard */; };
 		39071A8520E20E8F00B3BEB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39071A8420E20E8F00B3BEB9 /* Assets.xcassets */; };
 		39071A8820E20E8F00B3BEB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39071A8620E20E8F00B3BEB9 /* LaunchScreen.storyboard */; };
@@ -21,6 +20,12 @@
 		39C0864720E3809100D80A04 /* NSObject+NonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0864620E3809100D80A04 /* NSObject+NonBase.m */; };
 		39C0864D20E384A300D80A04 /* UIView+NonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0864C20E384A300D80A04 /* UIView+NonBase.m */; };
 		39C0865020E3858600D80A04 /* WDViewIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0864F20E3858600D80A04 /* WDViewIntercepter.m */; };
+		39C0865D20E39EDD00D80A04 /* WDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0865C20E39EDD00D80A04 /* WDLoginViewController.m */; };
+		39C0866020E3A0F200D80A04 /* WDRouterConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0865F20E3A0F200D80A04 /* WDRouterConstant.m */; };
+		39C0866320E3AB1200D80A04 /* WDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0866220E3AB1200D80A04 /* WDHomeViewController.m */; };
+		39C0866620E3ABE300D80A04 /* JLRoutes+GenerateURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0866520E3ABE300D80A04 /* JLRoutes+GenerateURL.m */; };
+		39C0866920E3ADDF00D80A04 /* WDCommButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0866820E3ADDF00D80A04 /* WDCommButton.m */; };
+		39C0866C20E5C2B900D80A04 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0866B20E5C2B900D80A04 /* TestViewController.m */; };
 		F0516B6036B3CD75FEA43FEC /* libPods-MVVMRAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDB54DED66C401944329EE8 /* libPods-MVVMRAC.a */; };
 /* End PBXBuildFile section */
 
@@ -46,8 +51,6 @@
 		39071A7820E20E8F00B3BEB9 /* MVVMRAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMRAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39071A7B20E20E8F00B3BEB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		39071A7C20E20E8F00B3BEB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		39071A7E20E20E8F00B3BEB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		39071A7F20E20E8F00B3BEB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		39071A8220E20E8F00B3BEB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39071A8420E20E8F00B3BEB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39071A8720E20E8F00B3BEB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +79,19 @@
 		39C0864C20E384A300D80A04 /* UIView+NonBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+NonBase.m"; sourceTree = "<group>"; };
 		39C0864E20E3858600D80A04 /* WDViewIntercepter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDViewIntercepter.h; sourceTree = "<group>"; };
 		39C0864F20E3858600D80A04 /* WDViewIntercepter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDViewIntercepter.m; sourceTree = "<group>"; };
+		39C0865320E38C8300D80A04 /* GloalDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GloalDefine.h; sourceTree = "<group>"; };
+		39C0865B20E39EDD00D80A04 /* WDLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDLoginViewController.h; sourceTree = "<group>"; };
+		39C0865C20E39EDD00D80A04 /* WDLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDLoginViewController.m; sourceTree = "<group>"; };
+		39C0865E20E3A0F200D80A04 /* WDRouterConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDRouterConstant.h; sourceTree = "<group>"; };
+		39C0865F20E3A0F200D80A04 /* WDRouterConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDRouterConstant.m; sourceTree = "<group>"; };
+		39C0866120E3AB1200D80A04 /* WDHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDHomeViewController.h; sourceTree = "<group>"; };
+		39C0866220E3AB1200D80A04 /* WDHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDHomeViewController.m; sourceTree = "<group>"; };
+		39C0866420E3ABE300D80A04 /* JLRoutes+GenerateURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JLRoutes+GenerateURL.h"; sourceTree = "<group>"; };
+		39C0866520E3ABE300D80A04 /* JLRoutes+GenerateURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JLRoutes+GenerateURL.m"; sourceTree = "<group>"; };
+		39C0866720E3ADDF00D80A04 /* WDCommButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDCommButton.h; sourceTree = "<group>"; };
+		39C0866820E3ADDF00D80A04 /* WDCommButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDCommButton.m; sourceTree = "<group>"; };
+		39C0866A20E5C2B900D80A04 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		39C0866B20E5C2B900D80A04 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		98FB3272D5415537755A097F /* Pods-MVVMRAC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMRAC.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMRAC/Pods-MVVMRAC.release.xcconfig"; sourceTree = "<group>"; };
 		EBDB54DED66C401944329EE8 /* libPods-MVVMRAC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVVMRAC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -144,10 +160,9 @@
 				39C0862920E372C800D80A04 /* NonBase */,
 				39C0862B20E372C800D80A04 /* Router */,
 				39C0862C20E372C800D80A04 /* Utils */,
+				39C0865620E39C0200D80A04 /* MVVM */,
 				39071A7B20E20E8F00B3BEB9 /* AppDelegate.h */,
 				39071A7C20E20E8F00B3BEB9 /* AppDelegate.m */,
-				39071A7E20E20E8F00B3BEB9 /* ViewController.h */,
-				39071A7F20E20E8F00B3BEB9 /* ViewController.m */,
 				39071A8120E20E8F00B3BEB9 /* Main.storyboard */,
 				39071A8420E20E8F00B3BEB9 /* Assets.xcassets */,
 				39071A8620E20E8F00B3BEB9 /* LaunchScreen.storyboard */,
@@ -195,6 +210,10 @@
 		39C0862B20E372C800D80A04 /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				39C0865E20E3A0F200D80A04 /* WDRouterConstant.h */,
+				39C0865F20E3A0F200D80A04 /* WDRouterConstant.m */,
+				39C0866420E3ABE300D80A04 /* JLRoutes+GenerateURL.h */,
+				39C0866520E3ABE300D80A04 /* JLRoutes+GenerateURL.m */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -209,6 +228,7 @@
 		39C0862D20E372C800D80A04 /* Constant */ = {
 			isa = PBXGroup;
 			children = (
+				39C0865320E38C8300D80A04 /* GloalDefine.h */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
@@ -249,6 +269,53 @@
 				39C0864F20E3858600D80A04 /* WDViewIntercepter.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		39C0865620E39C0200D80A04 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				39C0865A20E39C6800D80A04 /* Model */,
+				39C0865820E39C6800D80A04 /* View */,
+				39C0865720E39C6800D80A04 /* ViewModel */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		39C0865720E39C6800D80A04 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		39C0865820E39C6800D80A04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				39C0867720E9C31C00D80A04 /* Button */,
+				39C0865B20E39EDD00D80A04 /* WDLoginViewController.h */,
+				39C0865C20E39EDD00D80A04 /* WDLoginViewController.m */,
+				39C0866120E3AB1200D80A04 /* WDHomeViewController.h */,
+				39C0866220E3AB1200D80A04 /* WDHomeViewController.m */,
+				39C0866A20E5C2B900D80A04 /* TestViewController.h */,
+				39C0866B20E5C2B900D80A04 /* TestViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		39C0865A20E39C6800D80A04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		39C0867720E9C31C00D80A04 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				39C0866720E3ADDF00D80A04 /* WDCommButton.h */,
+				39C0866820E3ADDF00D80A04 /* WDCommButton.m */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 		8A4FCA7CF0C5CF3ED9DFCBCA /* Pods */ = {
@@ -446,12 +513,17 @@
 			files = (
 				39C0863C20E3760900D80A04 /* WDViewControllerIntercepter.m in Sources */,
 				39C0864720E3809100D80A04 /* NSObject+NonBase.m in Sources */,
+				39C0866C20E5C2B900D80A04 /* TestViewController.m in Sources */,
+				39C0866620E3ABE300D80A04 /* JLRoutes+GenerateURL.m in Sources */,
+				39C0866920E3ADDF00D80A04 /* WDCommButton.m in Sources */,
 				39C0864420E3802C00D80A04 /* WDViewModelIntercepter.m in Sources */,
-				39071A8020E20E8F00B3BEB9 /* ViewController.m in Sources */,
+				39C0865D20E39EDD00D80A04 /* WDLoginViewController.m in Sources */,
 				39071A8B20E20E8F00B3BEB9 /* main.m in Sources */,
 				39C0864D20E384A300D80A04 /* UIView+NonBase.m in Sources */,
 				39C0865020E3858600D80A04 /* WDViewIntercepter.m in Sources */,
+				39C0866020E3A0F200D80A04 /* WDRouterConstant.m in Sources */,
 				39071A7D20E20E8F00B3BEB9 /* AppDelegate.m in Sources */,
+				39C0866320E3AB1200D80A04 /* WDHomeViewController.m in Sources */,
 				39C0863920E375AF00D80A04 /* UIViewController+NonBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

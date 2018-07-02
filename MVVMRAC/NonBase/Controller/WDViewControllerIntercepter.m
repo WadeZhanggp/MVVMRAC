@@ -55,9 +55,10 @@
         controller.edgesForExtendedLayout = UIRectEdgeAll;
         controller.extendedLayoutIncludesOpaqueBars = NO;
         controller.automaticallyAdjustsScrollViewInsets = NO;
+        controller.navigationController.navigationBar.translucent = NO;
         
         // 背景色设置为蓝色
-        controller.view.backgroundColor = [UIColor blueColor];
+        controller.view.backgroundColor = [UIColor whiteColor];
         
         // 执行协议方法，必须执行
         [controller wd_initialDefaultsForController];
