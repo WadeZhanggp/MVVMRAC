@@ -20,5 +20,4 @@
     [self setTitle:@"登录" forState:UIControlStateNormal];
 }
 
-
 @end

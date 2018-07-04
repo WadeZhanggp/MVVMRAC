@@ -57,5 +57,13 @@ JLRGenRoute(Schema, path)])
  */
 + (NSString *)wd_mapDictionaryToURLQueryString:(NSDictionary *)dic;
 
+/**
+ 跳转到指定控制器
+
+ @param controller 控制器名
+ @param pattern 方式
+ */
++ (void)wd_goController:(NSString *)controller WithPattern:(NSString *)pattern;
+
 
 @end

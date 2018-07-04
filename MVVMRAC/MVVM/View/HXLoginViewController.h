@@ -1,14 +1,14 @@
 //
-//  WDLoginViewController.h
+//  HXLoginViewController.h
 //  MVVMRAC
 //
-//  Created by zhangguangpeng on 2018/6/27.
+//  Created by zhangguangpeng on 2018/7/2.
 //  Copyright © 2018年 zhangguangpeng. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import "WDViewControllerProtocol.h"
 
-@interface WDLoginViewController : UIViewController <WDViewControllerProtocol>
+@interface HXLoginViewController : UIViewController <WDViewControllerProtocol>
 
 @end

@@ -9,6 +9,10 @@
 #import "JLRoutes+GenerateURL.h"
 #import <JLRoutes/JLRRouteRequest.h>
 #import <JLRoutes/JLRRouteDefinition.h>
+#import "WDRouterConstant.h"
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "ReactiveObjC/ReactiveObjC.h"
 
 @interface JLRRouteDefinition (kExtension)
 
@@ -117,6 +121,15 @@
     components.queryItems = [queryItems copy];
     
     return components.URL.absoluteString;
+}
+
++ (void)wd_goController:(NSString *)controller WithPattern:(NSString *)pattern {
+    
+    [[RACScheduler mainThreadScheduler] schedule:^{
+        NSString *router = [JLRoutes wd_generateURLWithPattern:pattern parameters:@[controller] extraParameters:nil];
+        NSLog(@"JLRGenRouteURL=%@",JLRGenRouteURL(WDDefaultRouteSchema, router));
+        [[UIApplication sharedApplication] openURL:JLRGenRouteURL(WDDefaultRouteSchema, router)];
+    }];
 }
 
 @end

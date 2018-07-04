@@ -11,8 +11,7 @@
 #import <JLRoutes.h>
 #import "WDRouterConstant.h"
 #import "UIViewController+NonBase.h"
-#import "WDLoginViewController.h"
-#import "TestViewController.h"
+#import "HXLoginViewController.h"
 
 
 @interface AppDelegate ()
@@ -26,7 +25,7 @@
 /**
  登录控制器
  */
-@property (nonatomic, strong) WDLoginViewController *loginController;
+@property (nonatomic, strong) HXLoginViewController *loginController;
 
 @end
 
@@ -50,9 +49,7 @@
 
 - (void)setupRootController {
     
-    UIViewController *vc = [[WDLoginViewController alloc] init];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
-    //[self.window setRootViewController:self.loginController];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:self.loginController];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     
@@ -119,9 +116,9 @@
 }
 
 #pragma mark - getters and setters
-- (WDLoginViewController *)loginController {
+- (HXLoginViewController *)loginController {
     if (!_loginController) {
-        _loginController = [[WDLoginViewController alloc] init];
+        _loginController = [[HXLoginViewController alloc] init];
     }
     return _loginController;
 }
@@ -260,12 +257,14 @@
             currVC = tabVC;
             Rootvc = [tabVC.viewControllers objectAtIndex:tabVC.selectedIndex];
             continue;
+        }else {
+            Rootvc = self.window.rootViewController;
+            currVC = Rootvc;
         }
     } while (Rootvc!=nil);
-    
+
     return currVC;
     
-
 }
 
 
