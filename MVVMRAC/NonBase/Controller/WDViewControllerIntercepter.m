@@ -65,6 +65,7 @@
         [controller wd_bindViewModelForController];
         [controller wd_configNavigationForController];
         [controller wd_createViewForConctroller];
+        
     }
 }
 

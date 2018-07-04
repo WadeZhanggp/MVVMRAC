@@ -12,4 +12,6 @@ target 'MVVMRAC' do
   pod 'SVProgressHUD', '~> 2.2.2'
   # 自动布局
   pod 'Masonry', '~> 1.0.2'
+  # 键盘方法
+  pod 'IQKeyboardManager'
 end

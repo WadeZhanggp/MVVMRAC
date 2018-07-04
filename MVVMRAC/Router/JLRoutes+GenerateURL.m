@@ -126,9 +126,9 @@
 + (void)wd_goController:(NSString *)controller WithPattern:(NSString *)pattern {
     
     [[RACScheduler mainThreadScheduler] schedule:^{
-        NSString *router = [JLRoutes wd_generateURLWithPattern:pattern parameters:@[controller] extraParameters:nil];
+        NSString *router = [JLRoutes wd_generateURLWithPattern:pattern parameters:@[controller] extraParameters:@{@"key":@"2"}];
         NSLog(@"JLRGenRouteURL=%@",JLRGenRouteURL(WDDefaultRouteSchema, router));
-        [[UIApplication sharedApplication] openURL:JLRGenRouteURL(WDDefaultRouteSchema, router)];
+        [JLRoutes routeURL:JLRGenRouteURL(WDDefaultRouteSchema, router)];
     }];
 }
 

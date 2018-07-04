@@ -11,7 +11,17 @@
 
 #pragma mark - 基础颜色
 
-#define THEMECOLOR  HEX_RGB(0x0177D7)
+#define THEMECOLOR  Color(60, 77, 180, 1)
+//颜色
+/**
+ *  直接填写小数
+ */
+#define DecimalColor(r, g, b, a)    [UIColor colorWithRed:r green:g blue:b alpha:a]
+
+/**
+ *  直接填写整数
+ */
+#define Color(r, g, b, a)    [UIColor colorWithRed:r / 255.f green:g / 255.f blue:b / 255.f alpha:a]
 
 #pragma mark - 设备信息
 

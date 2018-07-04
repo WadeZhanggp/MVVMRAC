@@ -21,12 +21,13 @@
 		39C0864D20E384A300D80A04 /* UIView+NonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0864C20E384A300D80A04 /* UIView+NonBase.m */; };
 		39C0865020E3858600D80A04 /* WDViewIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0864F20E3858600D80A04 /* WDViewIntercepter.m */; };
 		39C0866020E3A0F200D80A04 /* WDRouterConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0865F20E3A0F200D80A04 /* WDRouterConstant.m */; };
-		39C0866320E3AB1200D80A04 /* WDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0866220E3AB1200D80A04 /* WDHomeViewController.m */; };
 		39C0866620E3ABE300D80A04 /* JLRoutes+GenerateURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0866520E3ABE300D80A04 /* JLRoutes+GenerateURL.m */; };
 		39C0866920E3ADDF00D80A04 /* WDCommButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0866820E3ADDF00D80A04 /* WDCommButton.m */; };
 		39C0867B20E9CC8500D80A04 /* HXLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0867920E9CC8500D80A04 /* HXLoginViewController.m */; };
 		39C0867C20E9CC8500D80A04 /* HXLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39C0867A20E9CC8500D80A04 /* HXLoginViewController.xib */; };
 		39C0867F20EA490100D80A04 /* HXLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0867E20EA490100D80A04 /* HXLoginViewModel.m */; };
+		39C0868620ECE1E700D80A04 /* HXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C0868420ECE1E700D80A04 /* HXHomeViewController.m */; };
+		39C0868720ECE1E700D80A04 /* HXHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39C0868520ECE1E700D80A04 /* HXHomeViewController.xib */; };
 		F0516B6036B3CD75FEA43FEC /* libPods-MVVMRAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDB54DED66C401944329EE8 /* libPods-MVVMRAC.a */; };
 /* End PBXBuildFile section */
 
@@ -83,8 +84,6 @@
 		39C0865320E38C8300D80A04 /* GloalDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GloalDefine.h; sourceTree = "<group>"; };
 		39C0865E20E3A0F200D80A04 /* WDRouterConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDRouterConstant.h; sourceTree = "<group>"; };
 		39C0865F20E3A0F200D80A04 /* WDRouterConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDRouterConstant.m; sourceTree = "<group>"; };
-		39C0866120E3AB1200D80A04 /* WDHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDHomeViewController.h; sourceTree = "<group>"; };
-		39C0866220E3AB1200D80A04 /* WDHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDHomeViewController.m; sourceTree = "<group>"; };
 		39C0866420E3ABE300D80A04 /* JLRoutes+GenerateURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JLRoutes+GenerateURL.h"; sourceTree = "<group>"; };
 		39C0866520E3ABE300D80A04 /* JLRoutes+GenerateURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JLRoutes+GenerateURL.m"; sourceTree = "<group>"; };
 		39C0866720E3ADDF00D80A04 /* WDCommButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDCommButton.h; sourceTree = "<group>"; };
@@ -94,6 +93,10 @@
 		39C0867A20E9CC8500D80A04 /* HXLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HXLoginViewController.xib; sourceTree = "<group>"; };
 		39C0867D20EA490100D80A04 /* HXLoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXLoginViewModel.h; sourceTree = "<group>"; };
 		39C0867E20EA490100D80A04 /* HXLoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXLoginViewModel.m; sourceTree = "<group>"; };
+		39C0868320ECE1E700D80A04 /* HXHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXHomeViewController.h; sourceTree = "<group>"; };
+		39C0868420ECE1E700D80A04 /* HXHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXHomeViewController.m; sourceTree = "<group>"; };
+		39C0868520ECE1E700D80A04 /* HXHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HXHomeViewController.xib; sourceTree = "<group>"; };
+		39C0868820ECE35800D80A04 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		98FB3272D5415537755A097F /* Pods-MVVMRAC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMRAC.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMRAC/Pods-MVVMRAC.release.xcconfig"; sourceTree = "<group>"; };
 		EBDB54DED66C401944329EE8 /* libPods-MVVMRAC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVVMRAC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -170,6 +173,7 @@
 				39071A8620E20E8F00B3BEB9 /* LaunchScreen.storyboard */,
 				39071A8920E20E8F00B3BEB9 /* Info.plist */,
 				39071A8A20E20E8F00B3BEB9 /* main.m */,
+				39C0868820ECE35800D80A04 /* PrefixHeader.pch */,
 			);
 			path = MVVMRAC;
 			sourceTree = "<group>";
@@ -296,11 +300,12 @@
 			isa = PBXGroup;
 			children = (
 				39C0867720E9C31C00D80A04 /* Button */,
-				39C0866120E3AB1200D80A04 /* WDHomeViewController.h */,
-				39C0866220E3AB1200D80A04 /* WDHomeViewController.m */,
 				39C0867820E9CC8500D80A04 /* HXLoginViewController.h */,
 				39C0867920E9CC8500D80A04 /* HXLoginViewController.m */,
 				39C0867A20E9CC8500D80A04 /* HXLoginViewController.xib */,
+				39C0868320ECE1E700D80A04 /* HXHomeViewController.h */,
+				39C0868420ECE1E700D80A04 /* HXHomeViewController.m */,
+				39C0868520ECE1E700D80A04 /* HXHomeViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -440,6 +445,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39071A8820E20E8F00B3BEB9 /* LaunchScreen.storyboard in Resources */,
+				39C0868720ECE1E700D80A04 /* HXHomeViewController.xib in Resources */,
 				39071A8520E20E8F00B3BEB9 /* Assets.xcassets in Resources */,
 				39C0867C20E9CC8500D80A04 /* HXLoginViewController.xib in Resources */,
 				39071A8320E20E8F00B3BEB9 /* Main.storyboard in Resources */,
@@ -470,10 +476,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MVVMRAC/Pods-MVVMRAC-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +530,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39C0863C20E3760900D80A04 /* WDViewControllerIntercepter.m in Sources */,
+				39C0868620ECE1E700D80A04 /* HXHomeViewController.m in Sources */,
 				39C0864720E3809100D80A04 /* NSObject+NonBase.m in Sources */,
 				39C0867F20EA490100D80A04 /* HXLoginViewModel.m in Sources */,
 				39C0866620E3ABE300D80A04 /* JLRoutes+GenerateURL.m in Sources */,
@@ -532,7 +541,6 @@
 				39C0865020E3858600D80A04 /* WDViewIntercepter.m in Sources */,
 				39C0866020E3A0F200D80A04 /* WDRouterConstant.m in Sources */,
 				39071A7D20E20E8F00B3BEB9 /* AppDelegate.m in Sources */,
-				39C0866320E3AB1200D80A04 /* WDHomeViewController.m in Sources */,
 				39C0863920E375AF00D80A04 /* UIViewController+NonBase.m in Sources */,
 				39C0867B20E9CC8500D80A04 /* HXLoginViewController.m in Sources */,
 			);
@@ -700,6 +708,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YGJUF6B3RM;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MVVMRAC/PrefixHeader.pch";
 				INFOPLIST_FILE = MVVMRAC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -716,6 +726,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YGJUF6B3RM;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MVVMRAC/PrefixHeader.pch";
 				INFOPLIST_FILE = MVVMRAC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

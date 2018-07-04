@@ -7,11 +7,6 @@
 //
 
 #import "HXLoginViewController.h"
-#import <Masonry.h>
-#import "ReactiveObjC/ReactiveObjC.h"
-#import "JLRoutes+GenerateURL.h"
-#import "WDRouterConstant.h"
-#import "GloalDefine.h"
 #import "HXLoginViewModel.h"
 
 @interface HXLoginViewController () <UITextFieldDelegate>
@@ -59,14 +54,14 @@
          @strongify(self)
          if (tuple.first == self.passwdTextField){
              if (self.viewModel.isLoginEnable) {
-                [JLRoutes wd_goController:@"WDHomeViewController" WithPattern:WDNavPushRoute];
+                [JLRoutes wd_goController:@"HXHomeViewController" WithPattern:WDNavPushRoute];
              }
          }
      }];
     self.passwdTextField.delegate = self;
     [[self.loginButton rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(__kindof UIControl * _Nullable x) {
         if (self.viewModel.isLoginEnable) {
-            [JLRoutes wd_goController:@"WDHomeViewController" WithPattern:WDNavPushRoute];
+            [JLRoutes wd_goController:@"HXHomeViewController" WithPattern:WDNavPushRoute];
         }
     }];
 }

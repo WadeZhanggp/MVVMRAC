@@ -12,15 +12,11 @@
 #import "WDRouterConstant.h"
 #import "UIViewController+NonBase.h"
 #import "HXLoginViewController.h"
+#import <IQKeyboardManager.h>
 
 
 @interface AppDelegate ()
 
-- (void)configSVProgressHUD;
-- (void)configScrollViewAdapt4IOS11;
-- (void)configNetworkApiEnv;
-- (void)registerNavgationRouter;
-- (void)registerSchemaRouter;
 
 /**
  登录控制器
@@ -33,6 +29,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    IQKeyboardManager *manager = [IQKeyboardManager sharedManager];
+    manager.enable = YES;
     // 普通注册
     [self configSVProgressHUD];
     [self configScrollViewAdapt4IOS11];
@@ -123,23 +121,13 @@
     return _loginController;
 }
 
-@end
-
 #pragma mark - 初始化 SVProgressHUD 配置
-@implementation AppDelegate(SVProgressHUD)
-
-- (void)configSVProgressHUD
-{
+- (void)configSVProgressHUD {
     
 }
 
-@end
-
 #pragma mark - IOS11适配
-@implementation AppDelegate(Adapt4IOS11)
-
-- (void)configScrollViewAdapt4IOS11
-{
+- (void)configScrollViewAdapt4IOS11 {
     if (IOS11_OR_LATER) {
         [UIScrollView appearance].contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
         [UITableView appearance].contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
@@ -151,20 +139,13 @@
         [UITableView appearance].estimatedSectionFooterHeight = 0;
     }
 }
-@end
 
 #pragma mark - YTKNetworking 接口地址配置
-@implementation AppDelegate(NetworkApiEnv)
-
-- (void)configNetworkApiEnv
-{
+- (void)configNetworkApiEnv {
     
 }
-@end
 
 #pragma mark - 路由注册
-@implementation AppDelegate(RouterRegister)
-
 #pragma mark - 普通的跳转路由注册
 - (void)registerNavgationRouter
 {
@@ -262,11 +243,12 @@
             currVC = Rootvc;
         }
     } while (Rootvc!=nil);
-
+    
     return currVC;
     
 }
 
 
-
 @end
+
+

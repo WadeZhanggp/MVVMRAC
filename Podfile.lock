@@ -1,5 +1,6 @@
 PODS:
   - Aspects (1.4.1)
+  - IQKeyboardManager (5.0.6)
   - JLRoutes (2.0.5)
   - Masonry (1.0.2)
   - ReactiveObjC (3.0.0)
@@ -7,6 +8,7 @@ PODS:
 
 DEPENDENCIES:
   - Aspects (~> 1.4.1)
+  - IQKeyboardManager
   - JLRoutes (~> 2.0.5)
   - Masonry (~> 1.0.2)
   - ReactiveObjC (~> 3.0.0)
@@ -14,11 +16,12 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  IQKeyboardManager: 077b7f691dfa9d69db9cff66f2bed68ebfc02d9b
   JLRoutes: 2a5ee61d739b51a98c9d8112bee5149a19de8854
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
 
-PODFILE CHECKSUM: 5c93d1233d972cc65f86b9880a636eddb92f3043
+PODFILE CHECKSUM: 70d352aa1795f8703038ace1b3376816ce851749
 
 COCOAPODS: 1.4.0
